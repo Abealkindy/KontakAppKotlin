@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.rosinante24.kontakappkotlin.KontakActivity">
+    <item
+        android:id="@+id/action_clear"
+        android:orderInCategory="100"
+        android:title="@string/action_clear"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_generate"
+        android:orderInCategory="100"
+        android:title="@string/action_generate"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sort_first"
+        android:orderInCategory="100"
+        android:title="@string/action_sort_first"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sort_last"
+        android:orderInCategory="100"
+        android:title="@string/action_sort_last"
+        app:showAsAction="never" />
+</menu>

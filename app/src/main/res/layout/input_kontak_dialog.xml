@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <EditText
+        android:id="@+id/edittext_firstname"
+        android:layout_width="@dimen/jarak0dp"
+        android:layout_height="@dimen/jarak45dp"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/jarak8dp"
+        android:background="@drawable/background_edit_text"
+        android:drawableEnd="@drawable/ic_fail"
+        android:drawableRight="@drawable/ic_fail"
+        android:ems="10"
+        android:hint="@string/first_name"
+        android:inputType="textPersonName"
+        android:padding="@dimen/jarak5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edittext_lastname"
+        android:layout_width="@dimen/jarak0dp"
+        android:layout_height="@dimen/jarak45dp"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/jarak8dp"
+        android:background="@drawable/background_edit_text"
+        android:drawableEnd="@drawable/ic_fail"
+        android:drawableRight="@drawable/ic_fail"
+        android:ems="10"
+        android:hint="@string/last_name"
+        android:inputType="textPersonName"
+        android:padding="@dimen/jarak5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edittext_firstname" />
+
+    <EditText
+        android:id="@+id/edittext_email"
+        android:layout_width="@dimen/jarak0dp"
+        android:layout_height="@dimen/jarak45dp"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/jarak8dp"
+        android:background="@drawable/background_edit_text"
+        android:drawableEnd="@drawable/ic_fail"
+        android:drawableRight="@drawable/ic_fail"
+        android:ems="10"
+        android:hint="@string/email_address"
+        android:inputType="textEmailAddress"
+        android:padding="@dimen/jarak5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edittext_lastname" />
+
+
+</android.support.constraint.ConstraintLayout>

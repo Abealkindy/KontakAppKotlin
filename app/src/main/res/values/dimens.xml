@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="thumbnail_size">56dp</dimen>
+    <dimen name="jarak8dp">8dp</dimen>
+    <dimen name="jarak0dp">0dp</dimen>
+    <dimen name="jarak45dp">45dp</dimen>
+    <dimen name="jarak5dp">5dp</dimen>
+</resources>
